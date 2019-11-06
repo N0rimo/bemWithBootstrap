@@ -62,6 +62,7 @@ ul, li {
 .button_full:hover {
 	border: 2px dotted #fff;
 	background: #04574e;
+	cursor: pointer;
 }
 /* About us */
 .about {

@@ -49,20 +49,12 @@ ul, li {
 	margin: 0 10px;
 	color: #fff;
 	transition: 0.3s;
-}
-.button_empty {
-	background: transparent;
-	border: 2px solid white;
-}
-.button_full {
 	background: #00897b;
 	border: 2px solid #00897b;
 }
-.button_empty:hover,
-.button_full:hover {
-	border: 2px dotted #fff;
-	background: #04574e;
-	cursor: pointer;
+.button:hover {
+	background: transparent;
+	border: 2px solid white;
 }
 /* About us */
 .about {

@@ -45,6 +45,7 @@ ul, li {
 	margin-bottom: 100px;
 }
 .button {
+	text-transform: uppercase;
 	padding: 10px 25px;
 	margin: 0 10px;
 	color: #fff;
@@ -121,4 +122,21 @@ ul, li {
 }
 .button-services:hover {
 	cursor: pointer;
+}
+/* Portfolio */
+.portfolio {
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 135px;
+}
+.portfolio button:hover {
+	color: #000;
+	border: 2px solid #00897b;
+	background-color: transparent;
+}
+.portfolio img {
+	margin-bottom: 30px;
+}
+.filter {
+	padding: 120px 0;
 }

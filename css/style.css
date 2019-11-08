@@ -28,7 +28,7 @@ ul, li {
 	color: #868686;
 }
 /* Header */
-.header > div {
+.header {
 	color: #fff;
 	text-align: center;
 	padding: 180px 0;

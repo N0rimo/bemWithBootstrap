@@ -286,6 +286,9 @@ div[filter]:hover .text {
 	background: #3949ab;
 }
 /* Blog */
+.blog-item {
+	width: 48%;
+}
 .left > div:first-child {
 	order: 1;
 }
@@ -301,7 +304,6 @@ div[filter]:hover .text {
 .blog {
 	text-align: left;
 	margin-top: 60px;
-	margin-left: 20px;
 }
 .blog a {
 	font-size: 25px;
@@ -323,9 +325,6 @@ div[filter]:hover .text {
 .blog p {
 	font-size: 15px;
 }
-.left, .right {
-	margin: 0 -40px;
-}
 .button_blog {
 	width: 220px;
 	height: 70px;
@@ -333,10 +332,16 @@ div[filter]:hover .text {
 	color: white;
 	font-size: 15px;
 	margin-top: 125px;
-	border: none;
+	transition: 0.3s;
+	border: 2px solid #00897b;
+	cursor: pointer;
 	background: #00897b;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+}
+.button_blog:hover {
+	background: transparent;
+	color: #000;
 }
 /* Footer */
 .footer {

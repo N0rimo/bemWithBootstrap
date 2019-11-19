@@ -50,7 +50,7 @@ $(document).ready(function () {
 	/* Dropdown menu */
 	$('.menu-icon').click(function () {
 		$('nav').slideToggle(500);
-		$('ul').css({
+		$('ul.menu').css({
 			'display':'flex', 'flex-direction':'column'
 		});
 		console.log($('.menu-icon').html());
